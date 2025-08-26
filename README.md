@@ -82,18 +82,19 @@ Thus, Q-SPE does not deterministically predict a single outcome, but instead enc
 Clone this repository and install required dependencies:
 
 ```bash
-git clone https://github.com/zehanx/Q-SPE.git
+git clone https://github.com/Ahmadjamil888/Q-SPE.git
 cd Q-SPE
 pip install -r requirements.txt
+```
 2. Running the Demo
 The demo simulates superposition states on a classical machine:
 
-bash
+```bash
 Copy
 Edit
 python demo.py
 The code generates probabilistic outputs reflecting the multi-state superposition and demonstrates entanglement effects between different input features.
-
+```
 3. Training
 While the current implementation is not fully quantum, training proceeds as follows:
 
@@ -121,7 +122,7 @@ Initial state: |ψ⟩ = [1, 0]
 After superposition: |ψ'⟩ = [0.707, 0.707]
 Measurement probabilities: [0.50, 0.50]
 Observed output: [1, 0] or [0, 1] (probabilistic)
-```
+
 This demonstrates state indeterminacy until collapse.
 
 Strengths
